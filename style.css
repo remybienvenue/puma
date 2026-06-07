@@ -7,11 +7,11 @@
 
 body {
     margin: 0;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'arial', cursive;
     background: linear-gradient(135deg, #ffe6f0, #e0f7fa, #f1f8e9, #fff3e0);
     background-size: 400% 400%;
     animation: bodyGradient 15s ease infinite;
-    color: #2c3e50;
+    color:green;
     transition: background-image 0.3s ease-in-out, opacity 0.6s ease;
     opacity: 1;
     scroll-behavior: smooth;
@@ -632,9 +632,9 @@ button:active {
 }
 
 .close:hover {
-    color: #ff0000;
+    color: #6eec24;
     transform: rotate(90deg) scale(1.1);
-    background: rgba(0, 0, 0, 0.05);
+    background: rgba(89, 57, 230, 0.05);
 }
 
 /* ================= GALLERY SECTION ================= */
@@ -657,7 +657,7 @@ button:active {
 
 .gallery-grid img:hover {
     transform: scale(1.03);
-    box-shadow: 0 10px 25px rgba(255, 107, 107, 0.2);
+    box-shadow: 0 10px 25px rgba(47, 196, 84, 0.2);
     filter: brightness(1.02);
     border-color: #ff6b6b;
 }
@@ -693,6 +693,7 @@ button:active {
     
     .logo h2 {
         font-size: 24px;
+        background-color:white;
     }
     
     .hero h1 {
